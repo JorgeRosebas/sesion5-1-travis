@@ -12,6 +12,9 @@ it('comprobar función suma', function() {
 	assert.equal(operaciones.suma(-1,3), 2);
 	assert.equal(operaciones.suma(8,-3), 5);
 });
+it('comprobar funcion multiply', function(){
+	assert.equal(operaciones,multiply(2,8), 16);
+});
 
 
 
