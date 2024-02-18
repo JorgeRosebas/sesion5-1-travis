@@ -13,6 +13,11 @@ it('comprobar función resta', function() {
   should.equal(operaciones.resta(1,3), -2);
 	should.equal(operaciones.resta(1,3), -2);
 });
+it('comprobar funcion multiply', function(){
+  operaciones.multiply.should.be.a.Function();
+	should.equal(operaciones.multiply(2,8), 16);
+});
+
 
 
 
